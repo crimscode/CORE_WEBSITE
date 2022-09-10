@@ -35,3 +35,41 @@
     font-family: poppins-black-italic;
     src: url(fonts/PoppinsFont/Poppins-BlackItalic.ttf);
 }
+
+
+/* MONTSERRAT FONT */
+
+@font-face{
+    font-family: montserrat-regular;
+    src: url(fonts/MontserratFont/Montserrat-Regular.ttf);
+}
+
+/* Bold Poppins font */
+@font-face{
+    font-family: montserrat-bold;
+    src: url(fonts/MontserratFont/Montserrat-Bold.ttf);
+}
+
+/* Bold Italic Poppins font */
+@font-face{
+    font-family: montserrat-bold-italic;
+    src: url(fonts/MontserratFont/Montserrat-BoldItalic.ttf);
+}
+
+/* Italic Poppins font  */
+@font-face{
+    font-family: montserrat-italic;
+    src: url(fonts/MontserratFont/Montserrat-Italic.ttf);
+}
+
+/* Black Poppins font */
+@font-face{
+    font-family: montserrat-black;
+    src: url(fonts/MontserratFont/Montserrat-Black.ttf);
+}
+
+/* Black Italic Poppins font */
+@font-face{
+    font-family: montserrat-black-italic;
+    src: url(fonts/MontserratFont/Montserrat-BlackItalic.ttf);
+}
