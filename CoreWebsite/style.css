@@ -17,6 +17,8 @@ body{
 /* NAV */
 
 .site-nav{
+    position: sticky;
+    top: 0px;
     background-color: #3e3e3e;
     height: 6vh;
 }
@@ -105,7 +107,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     filter: opacity(50%) blur(5px);
-    background-image: url(/content/CORE-LOGOS.gif);
+    background-clip: border-box;
+    background-image: url(images/site-images/CORE-LOGOS.gif);
 }
 
 .intermission-header{
@@ -123,4 +126,47 @@ body{
 
 .site-main{
     height: 100vh;
+}
+
+
+/* FOOTER */
+
+.site-footer {
+    position: relative;
+    height: 100px;
+    background-color: wheat;
+    z-index: -9;
+}
+.footer-background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    filter: blur(0px);
+    background-image: linear-gradient(to left, rgba(245, 222, 179, 50%), rgba(245, 222, 179, 100%)), 
+                      url(images/site-images/CORE\ LOGOS.png);
+    background-repeat: no-repeat;
+    background-position: 225%;
+    background-clip: border-box;
+    z-index: -8;
+    width: 100%;
+    height: 100%;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 50px;
+    line-height: 30px;
+    z-index: 1;
+    width: 500px;
+    height: 100%;
+}
+.footer-title {
+    font-family: poppins-italic;
+    font-size: 25px;
+}
+.footer-work-button {
+    font-family: poppins-regular;
+    color: #000;
 }
