@@ -22,8 +22,12 @@ body{
 }
 
 .text-for-button{
-    font-family: poppins-italic;
     color: #fff;
+    font-family: poppins-italic;
+}
+.number{
+    color: #cd484b;
+    font-family: montserrat-bold;
 }
 
 
@@ -153,7 +157,7 @@ body{
     margin-bottom: -8px;
 }
 
-.about-text{
+.future-text{
     margin-left: 80px;
     margin-top: 35px;
     color: wheat;
@@ -161,7 +165,7 @@ body{
     height: 41vh;
 }
 
-.about-us{
+.your-future{
     font-family: poppins-regular;
     margin-left: 5%;
 }
