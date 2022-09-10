@@ -1,0 +1,235 @@
+/* ALL FONTS */
+@import url(fonts.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #3e3e3e;
+    z-index: -10;
+}
+
+
+/* GLOBAL CLASSES */
+
+.core-name{
+    color: #cd484b;
+    font-family: montserrat-bold;
+}
+
+.text-for-button{
+    font-family: poppins-italic;
+    color: #fff;
+}
+
+
+/* NAV */
+
+.site-nav{
+    position: sticky;
+    top: 0px;
+    background-color: #3e3e3e;
+    height: 10vh;
+    z-index: 1000;
+}
+
+.nav-content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-logo{
+    height: 6vh;
+}
+
+.nav-logo-wrapper{
+    margin-right: 25px;
+}
+
+.nav-buttons-wrapper{
+    margin-left: 50px;
+}
+
+.nav-buttons-list{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-buttons-item{
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.nav-buttons-content{
+    font-family: poppins-italic;
+    font-size: 30px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #cd484b;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.nav-buttons-content:hover{
+    color: #cd484b;
+    background-color: #fff;
+}
+
+
+/* INTERMISSION */
+
+.intermission-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    background-color: wheat;
+}
+
+.intermission-div-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(245, 222, 179, 50%);
+    z-index: 10;
+    border-radius: 50px;
+}
+
+.intermission-bg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 100%;
+    height: 100%;
+
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(50%) blur(5px);
+    background-clip: border-box;
+    background-image: url(images/site-images/CORE-LOGOS.gif);
+    border-radius: 50px
+}
+
+.intermission-header{
+    font-family: poppins-black;
+    color: #cd484b;
+    font-size: 50px;
+    word-spacing: 5px;
+}
+
+.intermission-text{
+    font-family: poppins-bold-italic;
+}
+
+
+/* MAIN */
+
+.main-content-wrapper h2{
+    font-family: montserrat-bold-italic;
+    color: #cd484b;
+    font-size: 65px;
+    margin-top: 5%;
+}
+
+.main-header-image{
+    width: 65px;
+    margin-bottom: -8px;
+}
+
+.about-text{
+    margin-left: 80px;
+    margin-top: 35px;
+    color: wheat;
+    width: 1200px;
+    height: 41vh;
+}
+
+.about-us{
+    font-family: poppins-regular;
+    margin-left: 5%;
+}
+
+.yourfuture-page-button{
+    font-family: poppins-italic;
+    font-size: 30px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #cd484b;
+    text-decoration: none;
+    border: none;
+    margin-left: 75px;
+    transition: 0.2s;
+}
+
+.yourfuture-page-button:hover{
+    color: #cd484b;
+    background-color: #fff;
+}
+
+
+/* FOOTER */
+
+.site-footer {
+    position: relative;
+    height: 125px;
+    background-color: wheat;
+    margin-top: 5%;
+}
+.footer-background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(to left, rgba(245, 222, 179, 25%), rgba(245, 222, 179, 100%)), 
+                      url(images/site-images/CORE\ LOGOS.png);
+    background-repeat: no-repeat;
+    background-position: 100px, 400px;
+    background-clip: border-box;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 50px;
+    width: 500px;
+    height: 100%;
+    z-index: 100px;
+}
+.footer-title {
+    font-family: poppins-italic;
+    font-size: 25px;
+    z-index: 10;
+}
+.footer-work-button {
+    font-family: poppins-regular;
+    color: #000;
+    background-color: #cd484b;
+    padding: 5px 13px;
+    border-radius: 10px;
+    width: fit-content;
+    z-index: 10;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
