@@ -1,0 +1,56 @@
+/* ALL FONTS */
+@import url(fonts.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #3e3e3e;
+}
+
+
+/* NAV */
+
+.site-nav{
+    background-color: #1f1f1f;
+    height: 6vh;
+}
+
+.nav-content-wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+}
+
+.nav-logo{
+    height: 6vh;
+}
+
+.nav-logo-wrapper{
+    margin-left: 10px;
+}
+
+.nav-buttons-wrapper{
+    margin-left: 100px;
+}
+
+.nav-buttons-list{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-buttons-item{
+    list-style-type: none;
+}
+
+.nav-buttons-content{
+    font-family: poppins-italic;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 50px;
+}

@@ -1,0 +1,37 @@
+/* POPPINS FONT */
+
+/* Regular Poppins font */
+@font-face{
+    font-family: poppins-regular;
+    src: url(fonts/PoppinsFont/Poppins-Regular.ttf);
+}
+
+/* Bold Poppins font */
+@font-face{
+    font-family: poppins-bold;
+    src: url(fonts/PoppinsFont/Poppins-Bold.ttf);
+}
+
+/* Bold Italic Poppins font */
+@font-face{
+    font-family: poppins-bold;
+    src: url(fonts/PoppinsFont/Poppins-BoldItalic.ttf);
+}
+
+/* Italic Poppins font  */
+@font-face{
+    font-family: poppins-italic;
+    src: url(fonts/PoppinsFont/Poppins-Italic.ttf);
+}
+
+/* Black Poppins font */
+@font-face{
+    font-family: poppins-black;
+    src: url(fonts/PoppinsFont/Poppins-Black.ttf);
+}
+
+/* Black Italic Poppins font */
+@font-face{
+    font-family: poppins-black;
+    src: url(fonts/PoppinsFont/Poppins-BlackItalic.ttf);
+}
