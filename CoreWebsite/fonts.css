@@ -14,7 +14,7 @@
 
 /* Bold Italic Poppins font */
 @font-face{
-    font-family: poppins-bold;
+    font-family: poppins-bold-italic;
     src: url(fonts/PoppinsFont/Poppins-BoldItalic.ttf);
 }
 
@@ -32,6 +32,6 @@
 
 /* Black Italic Poppins font */
 @font-face{
-    font-family: poppins-black;
+    font-family: poppins-black-italic;
     src: url(fonts/PoppinsFont/Poppins-BlackItalic.ttf);
 }
