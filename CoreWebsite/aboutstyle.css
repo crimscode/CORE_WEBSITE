@@ -5,9 +5,20 @@
     margin: 0px;
     padding: 0px;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #3e3e3e;
     z-index: -10;
+}
+
+
+/* GLOBAL CLASSES */
+
+.core-name{
+    color: #cd484b;
+    font-family: montserrat-bold;
 }
 
 
@@ -19,7 +30,6 @@ body{
     background-color: #3e3e3e;
     height: 10vh;
     z-index: 1000;
-    margin-bottom: 35px;
 }
 
 .nav-content-wrapper{
@@ -78,11 +88,9 @@ body{
     align-items: center;
     position: relative;
     text-align: center;
-    width: calc(100% - 15vw);
+    width: 100%;
     height: 80vh;
     background-color: wheat;
-    margin: 0px auto;
-    border-radius: 50px;
 }
 
 .intermission-div-content{
@@ -123,4 +131,91 @@ body{
 
 .intermission-text{
     font-family: poppins-bold-italic;
+}
+
+
+/* MAIN */
+
+.main-content-wrapper h2{
+    font-family: montserrat-bold-italic;
+    color: #cd484b;
+    font-size: 65px;
+    margin-top: 5%;
+}
+
+.main-header-image{
+    width: 65px;
+    margin-bottom: -8px;
+}
+
+.about-text, .future-text{
+    margin-left: 80px;
+    margin-top: 35px;
+    color: wheat;
+    width: 1200px;
+}
+
+.about-us{
+    height: 50vh;
+    font-family: poppins-regular;
+    margin-left: 5%;
+}
+
+.your-future{
+    height: 60vh;
+    margin-left: 5%;
+}
+
+.to-page-future-button{
+    color: #fff;
+    font-family: poppins-italic;
+}
+
+
+/* FOOTER */
+
+.site-footer {
+    position: relative;
+    height: 125px;
+    background-color: wheat;
+}
+.footer-background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(to left, rgba(245, 222, 179, 25%), rgba(245, 222, 179, 100%)), 
+                      url(images/site-images/CORE\ LOGOS.png);
+    background-repeat: no-repeat;
+    background-position: 100px, 400px;
+    background-clip: border-box;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 50px;
+    width: 500px;
+    height: 100%;
+    z-index: 100px;
+}
+.footer-title {
+    font-family: poppins-italic;
+    font-size: 25px;
+    z-index: 10;
+}
+.footer-work-button {
+    font-family: poppins-regular;
+    color: #000;
+    background-color: #cd484b;
+    padding: 5px 13px;
+    border-radius: 10px;
+    width: fit-content;
+    z-index: 10;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 14px;
 }
